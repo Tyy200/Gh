@@ -1,25 +1,28 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>CodePen - Untitled</title>
-  <link rel="stylesheet" href="./style.css">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Video from Images</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<!-- partial:index.partial.html -->
-<h1>Create Video from Images</h1>
-<p>Combine up to 100 images into an MP4 video in the order you choose.</p>
-<input type="file" id="fileInput" multiple accept="image/*">
-<button id="selectButton">Select Image Files</button>
-<div id="imageList"></div>
-<button id="createButton" disabled>Create Video</button>
-<div id="progressContainer">
-    <div id="progressBar"></div>
-</div>
-<a id="downloadLink" href="#" download="video.mp4">Download Video</a>
-<!-- partial -->
-  <script  src="./script.js"></script>
-
+    <h1>Create Video from Images</h1>
+    <p>Combine up to 100 images into an MP4 video in the order you choose.</p>
+    
+    <input type="file" id="fileInput" accept="image/*" multiple>
+    <button id="selectButton">Select Image Files</button>
+    
+    <div id="imageList"></div>
+    
+    <button id="createButton" disabled>Create Video</button>
+    
+    <div id="progressContainer">
+        <div id="progressBar"></div>
+    </div>
+    
+    <a id="downloadLink" href="#" download="video.mp4">Download Video</a>
+    
+    <script src="script.js"></script>
 </body>
 </html>
