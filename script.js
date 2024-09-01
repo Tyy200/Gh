@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
 
         try {
-            const response = await fetch('http://127.0.0.1:5000', {
+            const response = await fetch('http://127.0.0.1:5000/Gh', {
                 method: 'POST',
                 body: formData
             });
